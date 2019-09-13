@@ -1,0 +1,2 @@
+anaconda jupyter
+anaconda pandas
