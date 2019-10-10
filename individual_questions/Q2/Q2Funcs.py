@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, precision_score
+import warnings
+from sklearn.exceptions import UndefinedMetricWarning
+warnings.filterwarnings(action='ignore', category=UndefinedMetricWarning)
 
 
 def find_uniques(se, dtype="category"):
