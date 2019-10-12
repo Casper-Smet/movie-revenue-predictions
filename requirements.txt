@@ -1,2 +1,5 @@
 anaconda jupyter
 anaconda pandas
+anaconda scikit-learn
+anaconda seaborn
+anaconda nltk
